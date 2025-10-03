@@ -51,6 +51,22 @@ input{
 
 }
 
+#subnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    align-content: center;
+   
+
+}
+
+
 
 p {
   margin: 0;
