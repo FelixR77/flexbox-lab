@@ -59,11 +59,22 @@ input{
 main {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     flex-direction: row;
     align-content: center;
    
 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-footer {
+  display: flex; 
+  justify-content: space-between;
 }
 
 
